@@ -57,11 +57,11 @@ let Hacercafe = {
   mesclador: Mesclador,
   tazaDeCafe: function (){
     let m = this.molino.on(this.enciendo);
-    let t; // this.t hace referencia a esta variable
     
     if(m){
       this.t = this.tanqueDeAgua.calentarAgua(this.enciendo);
     }
+    
     if (this.t){
      // console.log(this.t)
       //console.log(m)
