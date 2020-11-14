@@ -15,7 +15,9 @@ let TanqueDeAgua = {
       console.log("No esta encendida la cafetera, por lo que no puedo proceder");
       return false;
     }
+    
   }
+
 };
 
 let Molino = {
@@ -33,6 +35,7 @@ let Molino = {
     }
     
   }
+
 };
 
 let Mesclador = {
@@ -67,8 +70,6 @@ let Hacercafe = {
       //console.log(m)
       this.mesclador.prepararTaza(m , this.t);
     }
-    
-    
    
   } 
   
